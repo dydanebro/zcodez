@@ -1,6 +1,5 @@
 import React from "react";
 import logo from './assets/logo.png';
-import icon from './assets/icon.png'
 import flyer1 from './assets/flyer1.jpeg';
 import flyer2 from './assets/flyer2.jpeg';
 import flyer3 from './assets/flyer3.jpeg';
@@ -13,6 +12,7 @@ import mobile3 from './assets/mobile3.jpeg';
 import support1 from './assets/support1.jpeg';
 import support2 from './assets/support2.jpeg';
 import support3 from './assets/support3.jpeg';
+import photo from './assets/photo.jpg';
 import './App.css';
 
 const Home = () => {
@@ -69,7 +69,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-                    <div class="card bg-dark mb-2" style={{
+                        <div class="card bg-dark mb-2" style={{
                             maxHeight: 400,
                             height: 400,
                         }}>
@@ -106,7 +106,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-                    <div class="card bg-dark mb-2" style={{
+                        <div class="card bg-dark mb-2" style={{
                             maxHeight: 400,
                             height: 400,
                         }}>
@@ -143,7 +143,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-                    <div class="card bg-dark mb-2" style={{
+                        <div class="card bg-dark mb-2" style={{
                             maxHeight: 400,
                             height: 400,
                         }}>
@@ -185,22 +185,24 @@ const Home = () => {
                 <h3 className="text-dark text-center pb-3" id="about_h">About Us</h3>
                 <div className="d-flex flex-column justify-content-center align-items-center p-5">
                     <p className="">
-                        CodeZ is a pseudo created by MOMO WANKO Zidane, a software egineer studying at IME-school, 
+                        CodeZ is a pseudo created by MOMO WANKO Zidane, a software egineer studying at IME-school,
                         a private university situated at Douala, Bonamoussadi. For more information about the school, follow <a href={'https://ime-school.com'}>this link</a>
                     </p>
                 </div>
-                <div className="d-flex justify-content-center align-items-center mt-3">
-                    <div class="card w-25">
-                        <img src={icon} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">To learn more about the founder of codeZ, click on the button bellow.</p>
-                            <a href={'/'} class="btn btn-primary">More Info</a>
+                <div className="d-flex justify-content-center align-items-center mb-4">
+                    <div className="col-md-3">
+                        <div class="card">
+                            <img src={photo} class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Momo Wanko Zidane</h5>
+                                <p class="card-text">To learn more about the founder of codeZ, click on the button bellow.</p>
+                                <a href={'/'} class="btn btn-primary">More Info</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <h2 className="text-center text-danger mt-4">CONTENT STILL IN DEVELOPMENT PHASE ...</h2>
             </section>
+                <h2 className="text-center text-danger mt-5 mb-5">CONTENT STILL IN DEVELOPMENT PHASE ...</h2>
         </div>
     )
 }
