@@ -60,7 +60,7 @@ const Home = () => {
                             </div>
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Infographics</h5>
-                                <p class="card-text">Due to our creativity and curiousity, we can create very interesting and communicative infographics, including high quality flyers and logos.</p>
+                                <p class="card-text">Due to our creativity and curiousity, we can create very good quality flyers and logos.</p>
                                 <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
