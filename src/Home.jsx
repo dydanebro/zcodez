@@ -137,7 +137,7 @@ const Home = () => {
                             </div>
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Mobile Development</h5>
-                                <p class="card-text">We own skills in mobile application development and deployment.</p>
+                                <p class="card-text">We own some skills in very good mobile application development and deployment.</p>
                                 <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
