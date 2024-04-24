@@ -199,7 +199,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <h2>CONTENT STILL IN DEVELOPMENT PHASE ...</h2>
+                <h2 className="text-center text-danger mt-4">CONTENT STILL IN DEVELOPMENT PHASE ...</h2>
             </section>
         </div>
     )
