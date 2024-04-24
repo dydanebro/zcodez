@@ -181,8 +181,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section id="about" className="mt-5 mb-5">
-                <h3 className="text-dark text-center pb-3" id="about_h">About Us</h3>
+            <section id="about" className="mt-5 mb-5 bg-dark text-light">
+                <h3 className="text-light text-center mt-3 pb-3" id="about_h">About Us</h3>
                 <div className="d-flex flex-column justify-content-center align-items-center p-5">
                     <p className="">
                         CodeZ is a pseudo created by MOMO WANKO Zidane, a software egineer studying at IME-school,
@@ -194,9 +194,9 @@ const Home = () => {
                         <div class="card">
                             <img src={photo} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title">Momo Wanko Zidane</h5>
+                                <h5 class="card-title text-center">Momo Wanko Zidane</h5>
                                 <p class="card-text">To learn more about the founder of codeZ, click on the button bellow.</p>
-                                <a href={'/'} class="btn btn-primary">More Info</a>
+                                <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
                     </div>

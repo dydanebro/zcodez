@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
             <div className="col-md-6 w-50 d-flex flex-column justify-content-center align-items-center mt-2">
                 <p>Powered by <b>codeZ</b></p>
-                <p>Create & developed by <b>Momo Wanko Zidane</b>.</p>
+                <p>Created & developed by <b>Momo Wanko Zidane</b>.</p>
             </div>
         </footer>
     )
