@@ -190,7 +190,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="d-flex justify-content-center align-items-center mt-3">
-                    <div class="card w-50">
+                    <div class="card w-25">
                         <img src={icon} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
