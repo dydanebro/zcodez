@@ -189,7 +189,7 @@ const Home = () => {
                         a private university situated at Douala, Bonamoussadi. For more information about the school, follow <a href={'https://ime-school.com'}>this link</a>
                     </p>
                 </div>
-                <div className="d-flex justify-content-center align-items-center mb-4">
+                <div className="d-flex justify-content-center align-items-center mb-4 p-4">
                     <div className="col-md-3">
                         <div class="card">
                             <img src={photo} class="card-img-top" alt="..." />
