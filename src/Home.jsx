@@ -60,8 +60,8 @@ const Home = () => {
                             </div>
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Infographics</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href={'/'} class="btn btn-primary w-100">Go somewhere</a>
+                                <p class="card-text">Due to our creativity and curiousity, we can create very interesting and communicative infographics, including high quality flyers and logos.</p>
+                                <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Home = () => {
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Web Design</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href={'/'} class="btn btn-primary w-100">Go somewhere</a>
+                                <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ const Home = () => {
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Mobile Development</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href={'/'} class="btn btn-primary w-100">Go somewhere</a>
+                                <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,7 @@ const Home = () => {
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Technical Support</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href={'/'} class="btn btn-primary w-100">Go somewhere</a>
+                                <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@ const Home = () => {
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href={'/'} class="btn btn-primary">Go somewhere</a>
+                            <a href={'/'} class="btn btn-primary">More Info</a>
                         </div>
                     </div>
                 </div>
