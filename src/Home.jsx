@@ -97,7 +97,7 @@ const Home = () => {
                             </div>
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Web Design</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text">We are certified in responsive web design and web application development.</p>
                                 <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ const Home = () => {
                             </div>
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Mobile Development</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text">We own skills in mobile application development and deployment.</p>
                                 <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
@@ -171,7 +171,7 @@ const Home = () => {
                             </div>
                             <div class="card-body text-light d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Technical Support</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text">We can offer assistance on troubleshooting and technical issues.</p>
                                 <a href={'/'} class="btn btn-primary w-100">More Info</a>
                             </div>
                         </div>
@@ -181,20 +181,22 @@ const Home = () => {
             <section id="about" className="mt-5 mb-5">
                 <h3 className="text-dark text-center pb-3" id="about_h">About Us</h3>
                 <div className="d-flex flex-column justify-content-center align-items-center p-5">
-                    <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rhoncus elit vel mauris rutrum faucibus. Aenean neque ipsum, venenatis eu vulputate vel, ultricies at tellus. Morbi ac elit sapien. Integer euismod sit amet massa non molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nunc dui, lacinia eu laoreet eget, commodo vel urna. Aliquam ac dolor a est elementum dictum ut a elit. Ut ut nisl malesuada, mattis urna ut, rutrum augue.</p>
-                    <p>Mauris vitae facilisis nunc. Suspendisse imperdiet est sit amet tortor sollicitudin, a porttitor orci gravida. Donec rhoncus scelerisque metus, vitae tempor ante imperdiet eget. Sed interdum pharetra lacus, et volutpat leo aliquam quis. Aliquam suscipit lobortis massa ac pulvinar. Duis ullamcorper nisi id elementum commodo. Donec iaculis magna nulla, vitae porttitor justo vehicula nec.</p>
-                    <p>Curabitur nibh velit, tristique nec consequat sed, congue nec sem. Maecenas finibus, urna quis malesuada pharetra, odio leo sodales urna, a molestie eros erat in nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam facilisis nulla elit. Maecenas ornare ex urna. In ac sem condimentum justo eleifend molestie. Duis suscipit velit vitae lobortis cursus.</p>
+                    <p className="">
+                        CodeZ is a pseudo created by MOMO WANKO Zidane, a software egineer studying at IME-school, 
+                        a private university situated at Douala, Bonamoussadi. For more information about the school, follow <a href={'https://ime-school.com'}>this link</a>
+                    </p>
                 </div>
-                <div>
+                <div className="d-flex justify-content-center align-items-center mt-3">
                     <div class="card w-50">
                         <img src={icon} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">To learn more about the founder of codeZ, click on the button bellow.</p>
                             <a href={'/'} class="btn btn-primary">More Info</a>
                         </div>
                     </div>
                 </div>
+                <h2>CONTENT STILL IN DEVELOPMENT PHASE ...</h2>
             </section>
         </div>
     )
