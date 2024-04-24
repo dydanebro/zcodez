@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-black header">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href={'/'}>
                     <img src={icon} alt="codez icon" className="icon" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -16,22 +16,22 @@ const NavBar = () => {
                             <a class="nav-link active" aria-current="page" href={'/'}>Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href={'/'}>Link</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href={'/'} role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Sections
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li><a class="dropdown-item" href={'/'}>Home</a></li>
-                                <li><a class="dropdown-item" href="#">Services</a></li>
-                                <li><a class="dropdown-item" href="#">About</a></li>
-                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                                <li><a class="dropdown-item" href={'/'}>Services</a></li>
+                                <li><a class="dropdown-item" href={'/'}>About</a></li>
+                                <li><a class="dropdown-item" href={'/'}>Contact</a></li>
                                 <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#">Infographics</a></li>
-                                <li><a class="dropdown-item" href="#">Web Design</a></li>
-                                <li><a class="dropdown-item" href="#">Mobile Development</a></li>
-                                <li><a class="dropdown-item" href="#">Technical Support</a></li>
+                                <li><a class="dropdown-item" href={'/'}>Infographics</a></li>
+                                <li><a class="dropdown-item" href={'/'}>Web Design</a></li>
+                                <li><a class="dropdown-item" href={'/'}>Mobile Development</a></li>
+                                <li><a class="dropdown-item" href={'/'}>Technical Support</a></li>
                             </ul>
                         </li>
                         {/* <li class="nav-item">
