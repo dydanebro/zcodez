@@ -10,6 +10,9 @@ import website3 from './assets/website3.jpeg';
 import mobile1 from './assets/mobile1.jpeg';
 import mobile2 from './assets/mobile2.jpeg';
 import mobile3 from './assets/mobile3.jpeg';
+import support1 from './assets/support1.jpeg';
+import support2 from './assets/support2.jpeg';
+import support3 from './assets/support3.jpeg';
 import './App.css';
 
 const Home = () => {
@@ -29,7 +32,7 @@ const Home = () => {
                 <h3 className="text-dark text-center pb-3" id="about_h">Our Services</h3>
                 <div className="row mt-5">
                     <div className="col-md-3">
-                        <div class="card bg-dark" style={{
+                        <div class="card bg-dark mb-2" style={{
                             maxHeight: 400,
                             height: 400,
                         }}>
@@ -66,7 +69,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-                    <div class="card bg-dark" style={{
+                    <div class="card bg-dark mb-2" style={{
                             maxHeight: 400,
                             height: 400,
                         }}>
@@ -103,7 +106,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-                    <div class="card bg-dark" style={{
+                    <div class="card bg-dark mb-2" style={{
                             maxHeight: 400,
                             height: 400,
                         }}>
@@ -140,7 +143,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-                    <div class="card bg-dark" style={{
+                    <div class="card bg-dark mb-2" style={{
                             maxHeight: 400,
                             height: 400,
                         }}>
@@ -151,13 +154,13 @@ const Home = () => {
                                         height: 200,
                                     }}>
                                     <div class="carousel-item active">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={support1} class="d-block w-100" alt="..." />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={support2} class="d-block w-100" alt="..." />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={support3} class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide3" data-bs-slide="prev">
