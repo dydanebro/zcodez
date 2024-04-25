@@ -52,11 +52,11 @@ const Home = () => {
                                         <img src={flyer3} class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev text-light" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                                <button id="zap" class="carousel-control-prev text-light" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next text-light" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                                <button id="zap" class="carousel-control-next text-light" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
@@ -89,11 +89,11 @@ const Home = () => {
                                         <img src={website1} class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide1" data-bs-slide="prev">
+                                <button id="zap" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide1" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide1" data-bs-slide="next">
+                                <button id="zap" class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide1" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
@@ -126,11 +126,11 @@ const Home = () => {
                                         <img src={mobile3} class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide2" data-bs-slide="prev">
+                                <button id="zap" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide2" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide2" data-bs-slide="next">
+                                <button id="zap" class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide2" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
@@ -163,11 +163,11 @@ const Home = () => {
                                         <img src={support3} class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide3" data-bs-slide="prev">
+                                <button id="zap" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide3" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide3" data-bs-slide="next">
+                                <button id="zap" class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide3" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
