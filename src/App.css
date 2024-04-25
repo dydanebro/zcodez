@@ -11,6 +11,7 @@
   --light: var(#FFFFFF);
   --light: var(#F1F1F1);
   --light: var(#F7F7F7);
+  --blueColor: var(#0389FF);
 }
 
 .navbar {

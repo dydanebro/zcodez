@@ -189,20 +189,33 @@ const Home = () => {
                         a private university situated at Douala, Bonamoussadi. For more information about the school, follow <a href={'https://ime-school.com'}>this link</a>
                     </p>
                 </div>
-                <div className="d-flex justify-content-center align-items-center mb-4 p-5">
-                    <div className="col-md-3">
-                        <div class="card">
+                <div className="col d-flex justify-content-center align-items-center mb-4 p-5">
+                    <div class="row card d-flex flex-row w-50 justify-content-center align-items-center">
+                        <div className="col-md-4 p-0">
                             <img src={photo} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Momo Wanko Zidane</h5>
-                                <p class="card-text">To learn more about the founder of codeZ, click on the button bellow.</p>
-                                <a href={'/'} class="btn btn-primary w-100">More Info</a>
-                            </div>
+                        </div>
+                        <div class="col-md-4 card-body">
+                            <h5 class="card-title text-center">Momo Wanko Zidane</h5>
+                            <p class="card-text">To learn more about the founder of codeZ, click on the button bellow.</p>
+                        </div>
+                        <div className="col-md-4">
+                            <a href={'/'} class="btn btn-primary w-100">More Info</a>
                         </div>
                     </div>
                 </div>
             </section>
-                <h2 className="text-center text-danger mt-5 mb-5">CONTENT STILL IN DEVELOPMENT PHASE ...</h2>
+            <section id="contact" className="mt-5 mb-5 p-4">
+                <div className="row d-flex flex-column justify-content-center align-items-center">
+                    <h3 className="text-dark text-center mb-5">Contact <b className="text-primary">codeZ</b></h3>
+                    <div className="col-md-5 d-flex flex-column justify-content-center align-items-center">
+                        <input type="text" className="form-control mb-3" placeholder="Enter your email..." />
+                        <input type="text" className="form-control mb-3" placeholder="Enter your complete name..." />
+                        <textarea className="form-control mb-3" placeholder="Motif of your message..."></textarea>
+                        <button className="btn btn-outline-primary w-75">Submit</button>
+                    </div>
+                </div>
+            </section>
+            {/* <h2 className="text-center text-danger mt-5 mb-5">CONTENT STILL IN DEVELOPMENT PHASE ...</h2> */}
         </div>
     )
 }
