@@ -25,6 +25,7 @@ const Home = () => {
         emailjs.sendForm('service_hfocfzn', 'template_s4o3aga', form.current, '0-64e-PQnxnSV7mum')
         .then((result) => {
             console.log(result.text);
+            alert("Email sent successfully!\nThanks for visiting us.");
         }, (error) => {
             console.log(error.text);
         });
