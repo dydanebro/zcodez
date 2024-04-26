@@ -2,6 +2,15 @@ import React from "react";
 import icon from './assets/icon.png'
 
 const NavBar = () => {
+    // const [ isActive, setIsActive ] = useState(false);
+
+    const buttons = document.querySelectorAll('#navBtn');
+    const handleBtnClick = () => {
+        buttons.forEach(element => {
+            element.classList.add("active")
+        });
+    }
+
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-black header">
             <div class="container-fluid">
@@ -12,16 +21,16 @@ const NavBar = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item" id="navBtn" onClick={handleBtnClick}>
                             <a class="nav-link active" aria-current="page" href={'/#banner'}>Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="navBtn" onClick={handleBtnClick}>
                             <a class="nav-link" href={'/#services'}>Services</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="navBtn" onClick={handleBtnClick}>
                             <a class="nav-link" href={'/#about'}>About</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="navBtn" onClick={handleBtnClick}>
                             <a class="nav-link" href={'/#contact'}>Contact</a>
                         </li>
                         <li class="nav-item dropdown">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import logo from './assets/logo.png';
 import flyer1 from './assets/flyer1.jpeg';
 import flyer2 from './assets/flyer2.jpeg';
@@ -14,8 +14,22 @@ import support2 from './assets/support2.jpeg';
 import support3 from './assets/support3.jpeg';
 import photo from './assets/photo.jpg';
 import './App.css';
+import emailjs from "@emailjs/browser";
 
 const Home = () => {
+    const form = useRef();
+
+    const submit = e => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_hfocfzn', 'template_s4o3aga', form.current, '0-64e-PQnxnSV7mum')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
+
     return (
         <div className="container-fluid w-100 m-0 p-0">
             <section id="banner" className="bg-dark banner">
@@ -205,15 +219,17 @@ const Home = () => {
                 </div>
             </section>
             <section id="contact" className="mt-5 mb-5 p-4">
-                <div className="row d-flex flex-column justify-content-center align-items-center">
-                    <h3 className="text-dark text-center mb-5">Contact <b className="text-primary">codeZ</b></h3>
-                    <div className="col-md-5 d-flex flex-column justify-content-center align-items-center">
-                        <input type="text" className="form-control mb-3" placeholder="Enter your email..." />
-                        <input type="text" className="form-control mb-3" placeholder="Enter your complete name..." />
-                        <textarea className="form-control mb-3" placeholder="Motif of your message..."></textarea>
-                        <button className="btn btn-outline-primary w-75">Submit</button>
+                <form ref={form} onSubmit={submit}>
+                    <div className="row d-flex flex-column justify-content-center align-items-center">
+                        <h3 className="text-dark text-center mb-5">Contact <b className="text-primary">codeZ</b></h3>
+                        <div className="col-md-5 d-flex flex-column justify-content-center align-items-center">
+                            <input type="text" className="form-control mb-3" name="from_name" placeholder="Enter your email..." />
+                            <input type="text" className="form-control mb-3" name="from_email" placeholder="Enter your complete name..." />
+                            <textarea className="form-control mb-3" name="message" placeholder="Motif of your message..."></textarea>
+                            <button className="btn btn-outline-primary w-75">Submit</button>
+                        </div>
                     </div>
-                </div>
+                </form>
             </section>
             {/* <h2 className="text-center text-danger mt-5 mb-5">CONTENT STILL IN DEVELOPMENT PHASE ...</h2> */}
         </div>
